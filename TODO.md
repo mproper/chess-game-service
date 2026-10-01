@@ -8,5 +8,5 @@
 - [x] Add and run focused rules, persistence, and integration tests; build the solution.
 - [x] Rename the project and prepare GitHub-facing README, ignore rules, and CI.
 - [x] Initialize local Git and verify generated files are excluded.
-- [ ] Sign into GitHub in the opened browser, create the public `chess-game-service` repository under your account, then commit and push.
+- [x] Create the public `mproper/chess-game-service` repository and publish the project on `main`.
 - [x] Update the implementation plan and progress record with final outcomes.

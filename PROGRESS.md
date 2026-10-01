@@ -27,4 +27,4 @@ Implementation complete. Scope follows `CHESS_AGENT_PLAN.md`; changes and checks
 - `dotnet test .\tests\McpChess.Tests.csproj`: 12 passed, 0 failed.
 - VS Code diagnostics: no errors in application files.
 - Renamed the application/test projects, prepared README/CI/ignore files, and initialized a local Git repository.
-- GitHub publication is pending: public `chess-game-service` was selected, but GitHub requires sign-in in the opened browser before the repository can be created and pushed.
+- Published to https://github.com/mproper/chess-game-service on `main`; initial source commit: `ced1ad5`.
