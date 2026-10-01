@@ -49,3 +49,7 @@ The default database is `%LOCALAPPDATA%\McpChess\games.db` on Windows. Override 
 ## Project note
 
 This repository is an experimental/test implementation created with GitHub Copilot. It is intended for evaluation and learning, not as a production chess platform. Review the rules library and its supported draw adjudication before relying on it for tournament or rated play.
+
+## Copilot continuity
+
+`PROJECT_CONTEXT.md` stores durable project decisions and current technical context. `.github/copilot-instructions.md` asks Copilot to load it automatically, and a VS Code `SessionStart` hook injects its contents when hooks are enabled and the workspace is trusted. The hook has Windows and POSIX scripts. Hook execution depends on the selected agent harness; other editors or remote/cloud harnesses may not run VS Code workspace hooks. This restores repository knowledge, not private chat history or hidden model memory.

@@ -10,3 +10,4 @@
 - [x] Initialize local Git and verify generated files are excluded.
 - [x] Create the public `mproper/chess-game-service` repository and publish the project on `main`.
 - [x] Update the implementation plan and progress record with final outcomes.
+- [ ] Review portable project-context and SessionStart hook files; commit them separately after approval.

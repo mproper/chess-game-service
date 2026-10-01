@@ -1,0 +1,12 @@
+{
+  "hooks": {
+    "SessionStart": [
+      {
+        "type": "command",
+        "command": "bash .github/hooks/restore-context.sh",
+        "windows": "powershell -NoProfile -ExecutionPolicy Bypass -File .github/hooks/restore-context.ps1",
+        "timeout": 10
+      }
+    ]
+  }
+}

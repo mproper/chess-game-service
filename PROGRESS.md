@@ -2,7 +2,7 @@
 
 ## Current status
 
-Implementation complete. Scope follows `CHESS_AGENT_PLAN.md`; changes and checks were kept focused to conserve model usage.
+Chess implementation and initial publication are complete. A separate project-continuity change is now prepared locally and awaits user review; it has not been staged or committed.
 
 ## Completed
 
@@ -28,3 +28,5 @@ Implementation complete. Scope follows `CHESS_AGENT_PLAN.md`; changes and checks
 - VS Code diagnostics: no errors in application files.
 - Renamed the application/test projects, prepared README/CI/ignore files, and initialized a local Git repository.
 - Published to https://github.com/mproper/chess-game-service on `main`; initial source commit: `ced1ad5`.
+- Prepared `PROJECT_CONTEXT.md`, always-on `.github/copilot-instructions.md`, portable VS Code `SessionStart` hook scripts, and `.vscode/settings.json` to enable them. Workspace trust is still required, and hook support depends on the selected harness.
+- Continuity changes are intentionally uncommitted pending the requested review; commit only after explicit approval.
